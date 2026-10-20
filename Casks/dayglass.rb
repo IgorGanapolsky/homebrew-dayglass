@@ -1,10 +1,10 @@
 cask "dayglass" do
-  version "2.0.0"
-  sha256 "55ac559a09acadb5c6febffe796a565db8c9f81099428244e188e876e2c04bc5"
+  version "2.1.0"
+  sha256 "c87746cfbffd5216b3cf604f6a026ee0e850743fdbc647153dd4f71ffdb4af97"
 
   url "https://github.com/IgorGanapolsky/dayglass-mac/releases/download/v#{version}/Dayglass.dmg"
   name "Dayglass"
-  desc "100% On-Device Screen & Meeting Memory for macOS with 384K SubQ Snap GraphRAG & Paranoid Mode"
+  desc "100% On-Device Screen & Meeting Memory for macOS with OpenUI Generative UI & 384K SubQ Snap GraphRAG"
   homepage "https://igorganapolsky.github.io/dayglass-mac/"
 
   depends_on macos: ">= :ventura"
