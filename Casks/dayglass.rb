@@ -1,19 +1,19 @@
 cask "dayglass" do
-  version "2.1.0"
-  sha256 "d87ecd1d50f6e19636ce79243da484ea902b758e2f857dd8f0575b8324d9c2a2"
+  version "2.3.0"
+  sha256 "79db085450579f44df115b167b18d39e489f2dfbb5dc615af3afe8e21cfa4c2a"
 
-  url "https://github.com/IgorGanapolsky/homebrew-dayglass/releases/download/v#{version}/Dayglass.dmg"
+  url "https://github.com/IgorGanapolsky/dayglass-mac/releases/download/v#{version}/Dayglass.dmg"
   name "Dayglass"
-  desc "100% On-Device Screen & Meeting Memory for macOS with OpenUI Generative UI & 384K SubQ Snap GraphRAG"
-  homepage "https://igorganapolsky.github.io/dayglass/"
+  desc "On-device meeting notes and screen memory for macOS with local MCP server"
+  homepage "https://igorganapolsky.github.io/dayglass-mac/"
 
   depends_on macos: ">= :ventura"
 
   app "Dayglass.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Dayglass.app"],
-                   sudo: false
-  end
+  zap trash: [
+    "~/.dayglass",
+    "~/Library/Application Support/Dayglass",
+    "~/Library/Preferences/com.iganapolsky.dayglass.plist",
+  ]
 end
