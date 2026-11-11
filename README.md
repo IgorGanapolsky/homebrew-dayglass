@@ -16,9 +16,9 @@
 | :--- | :--- | :--- | :--- |
 | **Dayglass Community** | **$0 / forever** | 7-day rolling Apple Vision OCR + SQLite FTS5 search | [Download Free `.DMG`](https://github.com/IgorGanapolsky/dayglass-mac/releases/download/v2.1.0/Dayglass.dmg) |
 | **AI Agent Cost & Memory Playbook** | **$9.99 one-time** | Complete architecture guide + local SQLite/MCP setup | [Buy Playbook ($9.99) →](https://iganapolsky.gumroad.com/l/odrkon?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
-| **Dayglass Pro Monthly** | **$19 / month** | Unlimited 384K SubQ Snap GraphRAG, AirPods call recorder, AI Companion 3.0 & MCP | [Subscribe ($19/mo) →](https://buy.stripe.com/fZucN59eA1eScSd5e33sJ0U?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
+| **Dayglass Pro Monthly** | **$19 / month** | Unlimited 384K SubQ Snap GraphRAG, AirPods call recorder, AI Companion 3.0 & MCP | [Subscribe ($19/mo) →](https://buy.stripe.com/aFa14ngH24r419vgWL3sJ13?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
 | **Corporate-Expense Production Kit** | **$49 one-time** | **<$50 No-Approval Card Threshold** — Production MCP, DPO/AKV & Rule-Pack | [Buy Production Kit ($49) →](https://iganapolsky.gumroad.com/l/vcrho?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
-| **Dayglass Pro Annual** | **$149 / year** | Save 35% on full Dayglass Pro subscription | [Subscribe Annual ($149/yr) →](https://buy.stripe.com/aFa28r62o8Hk19v49Z3sJ0W?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
+| **Dayglass Pro Annual** | **$149 / year** | Save 35% on full Dayglass Pro subscription | [Subscribe Annual ($149/yr) →](https://buy.stripe.com/7sY4gz3Ug2iW5pL8qf3sJ14?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
 | **Dayglass Pro Lifetime** | **$249 one-time** | Pay once, own Dayglass Pro forever across personal & work Macs | [Buy Pro Lifetime ($249) →](https://buy.stripe.com/4gM5kD1M82iW2dz9uj3sJ0V?utm_source=github_readme&utm_campaign=dayglass_v2_1) |
 
 ---
