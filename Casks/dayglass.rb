@@ -7,7 +7,7 @@ cask "dayglass" do
   desc "On-device meeting notes and screen memory for macOS with local MCP server"
   homepage "https://igorganapolsky.github.io/dayglass-mac/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sonoma"
 
   app "Dayglass.app"
 
