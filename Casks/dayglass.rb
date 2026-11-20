@@ -4,16 +4,20 @@ cask "dayglass" do
 
   url "https://github.com/IgorGanapolsky/dayglass-mac/releases/download/v#{version}/Dayglass.dmg"
   name "Dayglass"
-  desc "On-device meeting notes and screen memory for macOS with local MCP server"
+  desc "On-device meeting notes and screen memory with a local MCP server"
   homepage "https://igorganapolsky.github.io/dayglass-mac/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Dayglass.app"
+
+  uninstall launchctl: "com.iganapolsky.dayglass-server",
+            quit:      "com.iganapolsky.dayglass"
 
   zap trash: [
     "~/.dayglass",
     "~/Library/Application Support/Dayglass",
+    "~/Library/LaunchAgents/com.iganapolsky.dayglass-server.plist",
     "~/Library/Preferences/com.iganapolsky.dayglass.plist",
   ]
 end
