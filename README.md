@@ -4,10 +4,12 @@ Bot-free meeting notes for Mac. Claude Code and Cursor can read your live call o
 
 - **Website:** [dayglass.io](https://dayglass.io/)
 - **Pricing:** [dayglass.io/pricing](https://dayglass.io/pricing)
-- **Latest release:** [github.com/IgorGanapolsky/dayglass-mac/releases/latest](https://github.com/IgorGanapolsky/dayglass-mac/releases/latest) (currently v2.4.0, signed with a Developer ID and notarized by Apple)
+- **Latest release:** [github.com/IgorGanapolsky/dayglass-mac/releases/latest](https://github.com/IgorGanapolsky/dayglass-mac/releases/latest) (currently v2.4.1, signed with a Developer ID and notarized by Apple)
 - **For AI assistants:** [dayglass.io/llms.txt](https://dayglass.io/llms.txt)
 
 ## Install
+
+Needs an Apple silicon Mac with macOS 14 or later.
 
 ```bash
 brew install --cask igorganapolsky/dayglass/dayglass

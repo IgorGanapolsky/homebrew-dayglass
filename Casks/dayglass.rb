@@ -4,8 +4,8 @@ cask "dayglass" do
 
   url "https://github.com/IgorGanapolsky/dayglass-mac/releases/download/v#{version}/Dayglass.dmg"
   name "Dayglass"
-  desc "On-device meeting notes and screen memory with a local MCP server"
-  homepage "https://igorganapolsky.github.io/dayglass-mac/"
+  desc "On-device meeting memory with no meeting bot"
+  homepage "https://www.dayglass.io/"
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
